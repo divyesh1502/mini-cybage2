@@ -1,0 +1,109 @@
+{
+  "movies": [
+    {
+      "title": "Adam Project",
+      "image": "/images/movie-3.png",
+      "description": "Description of Movie 1.",
+      "id": 1
+    },
+    {
+      "title": "Sonic",
+      "image": "/images/movie-1.png",
+      "description": "Description of Movie 2.",
+      "id": 2
+    },
+    {
+      "title": "Morbius",
+      "image": "/images/movie-2.png",
+      "description": "Description of Movie 3.",
+      "id": 3
+    }
+  ],
+  "songs": [
+    {
+      "title": "Qaafirana",
+      "image": "images/qaafirana.png",
+      "artist": "Arjit Singh",
+      "id": 1
+    },
+    {
+      "title": "Lover",
+      "image": "images/lover.png",
+      "artist": "Taylor Swift",
+      "id": 2
+    },
+    {
+      "title": "Electric Love",
+      "image": "/images/electric.png",
+      "artist": "BORNS",
+      "id": 3
+    }
+  ],
+  "tvShows": [
+    {
+      "title": "Moon",
+      "image": "/images/series-1.png",
+      "description": "Description of TV Show 1.",
+      "id": 1
+    },
+    {
+      "title": "Halo",
+      "image": "/images/series-2.png",
+      "description": "Description of TV Show 2.",
+      "id": 2
+    },
+    {
+      "title": "Vikings",
+      "image": "/images/series-3.png",
+      "description": "Description of TV Show 3.",
+      "id": 3
+    }
+  ],
+  "user": [
+    {
+      "name": "Yani Pawar",
+      "password": "yani@123",
+      "mobile": "0901165062",
+      "email": "yani@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "bella sha",
+      "password": "bella@123",
+      "mobile": "3213211234",
+      "email": "bella@cybage.com",
+      "id": 2
+    }
+  ],
+  "favMovies": [
+    {
+      "userId": 1,
+      "movieId": 1,
+      "id": 1
+    }
+  ],
+  "favShows": [
+    {
+      "userId": 1,
+      "showId": 2,
+      "id": 1
+    }
+  ],
+  "favSongs": [
+    {
+      "userId": 1,
+      "songId": 2,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "songId": 3,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "songId": 1,
+      "id": 3
+    }
+  ]
+}
